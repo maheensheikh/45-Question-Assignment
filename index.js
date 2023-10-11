@@ -1,4 +1,5 @@
+"use strict";
 //Q1
-var personName = "Maheen";
-var message = " would you like to learn Typescript?";
-console.log("HELLO! ".concat(personName).concat(message));
+let personName = "Maheen";
+let message = " would you like to learn Typescript?";
+console.log(`HELLO! ${personName}${message}`);

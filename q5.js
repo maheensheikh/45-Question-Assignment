@@ -1,4 +1,5 @@
+"use strict";
 //
-var FamPerson = "John Cage";
-var famQuote = ": BEGIN anywhere.";
-console.log("'".concat(FamPerson, ",").concat(famQuote, "'"));
+let FamPerson = "John Cage";
+let famQuote = ": BEGIN anywhere.";
+console.log(`'${FamPerson},${famQuote}'`);

@@ -1,11 +1,12 @@
+"use strict";
 //name cases: store a persons name in a variable ,and the print a person'sname in a lower case ,upper case
 //and title case
 //upper case
-var lowtoupper = "maheen";
+let lowtoupper = "maheen";
 console.log(lowtoupper.toUpperCase());
 //LOWER CASE
-var uppertoLower = 'MAHEEN';
+let uppertoLower = 'MAHEEN';
 console.log(uppertoLower.toLowerCase());
 //title case
-var a = "maheen";
+let a = "maheen";
 console.log(a.slice(0).toUpperCase(), a.slice(1).toLowerCase);

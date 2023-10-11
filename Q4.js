@@ -1,4 +1,5 @@
+"use strict";
 //Famous quote:
-var Famousperson = "John Cage";
-var famouseQuote = ": BEGIN anywhere.";
-console.log("".concat(Famousperson, ",").concat(famouseQuote));
+let Famousperson = "John Cage";
+let famouseQuote = ": BEGIN anywhere.";
+console.log(`${Famousperson},${famouseQuote}`);
